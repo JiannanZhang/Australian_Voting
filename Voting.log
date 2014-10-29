@@ -1,0 +1,237 @@
+commit 68314726cbafd9f95de1975bda8e00a0e92015d9
+Merge: 45b596b e668664
+Author: Hyun Seo <hjseo767@gmail.com>
+Date:   Thu Oct 23 19:59:19 2014 -0500
+
+    RunVoting.in, TestVoting.out, TestVoting.py
+
+commit e668664a28035bd9700e8651452fb918025bd29f
+Author: Hyunji Seo <hyunji-seo@users.noreply.github.com>
+Date:   Thu Oct 23 19:54:56 2014 -0500
+
+    Delete Runnewcode.py
+
+commit 2292253f79f6abb85fc5e55e899f651bf4ddd3a6
+Author: Hyunji Seo <hyunji-seo@users.noreply.github.com>
+Date:   Thu Oct 23 19:54:51 2014 -0500
+
+    Delete tjl763
+
+commit 47104ecb75d5e6b6d359419784dc2432841cbbf7
+Author: Hyunji Seo <hyunji-seo@users.noreply.github.com>
+Date:   Thu Oct 23 19:54:44 2014 -0500
+
+    Delete newcode.py
+
+commit 9713ca59df480a224e68d16ad006d24b097f1b05
+Author: Hyunji Seo <hyunji-seo@users.noreply.github.com>
+Date:   Thu Oct 23 19:54:23 2014 -0500
+
+    Update RunVoting.out
+
+commit 45e6e65d9ae6e104ad11bc1ac9ac3b79dcb86b22
+Author: Hyunji Seo <hyunji-seo@users.noreply.github.com>
+Date:   Thu Oct 23 19:54:05 2014 -0500
+
+    Update RunVoting.in
+
+commit 6a8861375ca2ab7639b4c02f78fb0b420adbf973
+Author: Jiannan Zhang <jz1992@cs.utexas.edu>
+Date:   Thu Oct 23 19:51:23 2014 -0500
+
+    add test.py and coverage
+
+commit 45b596b05552f453a1b230776f544b93cd6a01e2
+Author: Hyun Seo <hjseo767@gmail.com>
+Date:   Thu Oct 23 19:28:58 2014 -0500
+
+    account for there being only one ballot
+
+commit 52d148167fd4ea14fe391fdfb6b82f1ec2253bfa
+Author: Hyun Seo <hjseo767@gmail.com>
+Date:   Thu Oct 23 19:26:38 2014 -0500
+
+    create two lists of candidates - current and eliminated
+
+commit 78dfb61a1a12bfe1ef271bea005f93fc808bfaba
+Author: Hyun Seo <hjseo767@gmail.com>
+Date:   Thu Oct 23 19:23:27 2014 -0500
+
+    if no majority winner but tied winners
+
+commit f9ec24e1ebaafe0d7b3ced4c0663d9579061a1d1
+Author: Hyun Seo <hjseo767@gmail.com>
+Date:   Thu Oct 23 19:21:09 2014 -0500
+
+    blank line between consecutive inputs
+
+commit ecaea2b74e34b74175c5f7819dd1a7caf9cf4eef
+Author: Hyun Seo <hjseo767@gmail.com>
+Date:   Thu Oct 23 19:19:29 2014 -0500
+
+    blank line between consecutive inputs
+
+commit 9ebfcc90e8995e81fd9b63b3004049e6b5a9e084
+Author: Hyun Seo <hjseo767@gmail.com>
+Date:   Thu Oct 23 19:16:37 2014 -0500
+
+    Revote candidate(s) with lowest votes
+
+commit a5fffcdf40483736c6744efed5a5273872d05469
+Author: Hyun Seo <hjseo767@gmail.com>
+Date:   Thu Oct 23 19:09:42 2014 -0500
+
+    coverage
+    git commit -m coverage
+
+commit 0c7ed8a14c72869efb15a9b22976afbd71f6b002
+Author: Hyun Seo <hjseo767@gmail.com>
+Date:   Thu Oct 23 19:08:39 2014 -0500
+
+    FINAL RUNVOTING.IN AND RUNVOTING.OUT
+
+commit 8cb684ce8d33bc49cd5b792efec5c3aad6fed586
+Author: Hyun Seo <hjseo767@gmail.com>
+Date:   Thu Oct 23 18:52:03 2014 -0500
+
+    TestVoting.py
+
+commit 9a56bd2ae91050ddc04e23867d6a940055e97c65
+Author: Hyun Seo <hjseo767@gmail.com>
+Date:   Thu Oct 23 18:08:24 2014 -0500
+
+    FINAL VOTING.PY
+
+commit 25890e4d62ef3b4bd068e5750e6554fe88790656
+Author: Hyun Seo <hjseo767@gmail.com>
+Date:   Thu Oct 23 17:52:35 2014 -0500
+
+    modified Voting.py
+
+commit 412feb891779ac854c44758cc008bb7bb4bc18de
+Merge: b1200c4 2d05f7a
+Author: Hyun Seo <hjseo767@gmail.com>
+Date:   Thu Oct 23 17:48:42 2014 -0500
+
+    Merge branch 'master' of https://github.com/hyunji-seo/cs313e-voting
+
+commit 2d05f7a88ab0f7a1a32f57ff90bb1f4162fa7703
+Author: Jeffrey Zhang <jiannanzhang1992@gmail.com>
+Date:   Thu Oct 23 17:44:09 2014 -0500
+
+    rename it
+
+commit b1200c48b53ebd7d4993cd1a6e4f0aa1333855c9
+Author: Hyun Seo <hjseo767@gmail.com>
+Date:   Thu Oct 23 17:42:49 2014 -0500
+
+    cleaning up
+
+commit c3882bb872e373f93f5db363563fcaed48cbbddf
+Author: Jeffrey Zhang <jiannanzhang1992@gmail.com>
+Date:   Thu Oct 23 17:41:23 2014 -0500
+
+    final correct code
+
+commit e430d117b1da9769305f03782645e5da6f6483bd
+Author: Jiannan Zhang <jz1992@cs.utexas.edu>
+Date:   Thu Oct 23 00:07:21 2014 -0500
+
+    f
+
+commit 65baca2e8f33117718513c82ccee9e86a1cf60af
+Author: Jiannan Zhang <jz1992@cs.utexas.edu>
+Date:   Wed Oct 22 20:41:27 2014 -0500
+
+    debug
+
+commit 66e4714b1c53c8828986c535b6f1fc32a9913937
+Author: Jiannan Zhang <jz1992@cs.utexas.edu>
+Date:   Wed Oct 22 18:58:55 2014 -0500
+
+    some bugs here
+
+commit c78ef003f7157ec2549267260d5f1c538c108500
+Merge: 0ac3342 b835b8c
+Author: Jiannan Zhang <jz1992@cs.utexas.edu>
+Date:   Wed Oct 22 18:09:58 2014 -0500
+
+    Merge branch 'master' of https://github.com/hyunji-seo/cs313e-voting
+
+commit 0ac334291eceff507577c6aaa367a79a74d63d6b
+Author: Jiannan Zhang <jz1992@cs.utexas.edu>
+Date:   Wed Oct 22 18:09:03 2014 -0500
+
+    add test case
+
+commit b835b8c4e8f57c6dc136bade1e35122f686ddcfd
+Author: Hyun Seo <hjseo767@gmail.com>
+Date:   Wed Oct 22 18:02:18 2014 -0500
+
+    RunVoting.in completed
+
+commit 66625773d1a48d69e45eb3a016532a7beccd6df9
+Author: Hyunji Seo <hyunji-seo@users.noreply.github.com>
+Date:   Wed Oct 22 17:35:53 2014 -0500
+
+    Delete Voting.pyc
+
+commit b20eadaec918b5a0abcc74c0bf6ac47b56658a57
+Author: Hyun Seo <hjseo767@gmail.com>
+Date:   Wed Oct 22 01:11:25 2014 -0500
+
+    need to debug
+
+commit 26540251a152cfdbc4ba9939ee568a3138aaf1e3
+Author: Hyun Seo <hjseo767@gmail.com>
+Date:   Tue Oct 21 20:40:02 2014 -0500
+
+    debug
+
+commit 2316567aa585ce3225bfd08562deeff94e00197f
+Author: Hyun Seo <hjseo767@gmail.com>
+Date:   Tue Oct 21 20:28:37 2014 -0500
+
+    debugging
+
+commit feeb38e2b0c20fbef7e674bfea8eca6de718fc11
+Author: hyunji-seo <hjseo767@gmail.com>
+Date:   Tue Oct 21 19:35:57 2014 -0500
+
+    debugging
+
+commit 75274c4c2ef0d02bc96a4a8b4b133ad0ed948f82
+Author: Jiannan Zhang <jz1992@cs.utexas.edu>
+Date:   Mon Oct 20 20:01:58 2014 -0500
+
+    add all terminating conditions finished the draft
+
+commit 2f47a8928b01ad80e1ced2d36f0da6cc5c59bb60
+Author: Hyun Seo <hjseo767@gmail.com>
+Date:   Mon Oct 20 18:03:05 2014 -0500
+
+    Voting.py
+
+commit e8f97c16a8f940c5884b4b571b0c748b1f388a07
+Author: Jiannan Zhang <jz1992@cs.utexas.edu>
+Date:   Thu Oct 16 19:41:26 2014 -0500
+
+    half way done
+
+commit 85bc806895c9e6a8a24e2f568a5b7ab8d71f3579
+Author: Hyun Seo <hjseo767@gmail.com>
+Date:   Wed Oct 15 21:26:42 2014 -0500
+
+    Voting.py
+
+commit da3e9b9711e036eefc12bbe5b4695d763aeac19e
+Author: Jiannan Zhang <jz1992@cs.utexas.edu>
+Date:   Wed Oct 15 20:17:12 2014 -0500
+
+    Voting.py
+
+commit 0f30b27a13872f2121179715c472f648ee98bd54
+Author: Hyunji Seo <hyunji-seo@users.noreply.github.com>
+Date:   Tue Oct 14 16:27:49 2014 -0500
+
+    Initial commit
