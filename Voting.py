@@ -76,16 +76,17 @@ def voting_solve (r, w) :
         list_of_current_candis = []
         list_of_elim_candis = []
 
-        # dic_name_to_object {candidate_name:object}
-        # dic_ballot_to_candi {#:object}
+        # dic_name_to_object {candidate_name:candi_object}
+        # dic_ballot_to_candi {number:candi_object}
         dic_name_to_object = {}
         for i in range(num_candis):
             name = r.readline().rstrip()
             candi = Candidate(name)
             dic_name_to_object[str(name)] = candi
             list_of_current_candis.append(candi)
-               
-        list_of_items = zip(range(1,num_candis + 1),list_of_current_candis)
+        
+        list_of_items = zip(range(1,num_candis + 1),list_of_current_candis) # []
+        # dic comprehension
         dic_ballot_to_candi = {k : v for k, v in list_of_items}
 
         list_of_ballots = [] 
