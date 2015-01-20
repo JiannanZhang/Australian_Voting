@@ -12,18 +12,21 @@ class Candidate:
 class Ballot:
     def __init__(self,ballot_list):
         self.ballot_list = ballot_list
+        # this index is used when revote; this is crutial, we call it marker
         self.index = 1
-    
+        
+    # used when revote, to get next pref by voter
     def get_next(self,i):
+        # make a copy
         j = i
-        i += 1
+        #i += 1
         self.index += 1
         return self.ballot_list[j]
 
-    def revote(self,list_of_current_candis,list_of_elim_candis,ballot,dic_ballot_to_candi):
+    def revote(self,list_of_current_candis,list_of_elim_candis,ballot,dic_num_to_candi):
         assert type(list_of_current_candis) is list
         while True:
-            candi_revote = dic_ballot_to_candi[int(self.get_next(self.index))]
+            candi_revote = dic_num_to_candi[int(self.get_next(self.index))]
             try:
                 if ( candi_revote in list_of_current_candis):
                     candi = candi_revote
@@ -77,7 +80,7 @@ def voting_solve (r, w) :
         list_of_elim_candis = []
 
         # dic_name_to_object {candidate_name:candi_object}
-        # dic_ballot_to_candi {number:candi_object}
+        # dic_num_to_candi {number:candi_object}
         dic_name_to_object = {}
         for i in range(num_candis):
             name = r.readline().rstrip()
@@ -87,7 +90,7 @@ def voting_solve (r, w) :
         
         list_of_items = zip(range(1,num_candis + 1),list_of_current_candis) # []
         # dic comprehension
-        dic_ballot_to_candi = {k : v for k, v in list_of_items}
+        dic_num_to_candi = {k : v for k, v in list_of_items}
 
         list_of_ballots = [] 
         end = False   
@@ -142,7 +145,7 @@ def voting_solve (r, w) :
                 ballot_list = candi.ballot_list
                 # go through each ballot in ballot_list (2D list)
                 for ballot in ballot_list:
-                    ballot.revote(list_of_current_candis,list_of_elim_candis,ballot,dic_ballot_to_candi)
+                    ballot.revote(list_of_current_candis,list_of_elim_candis,ballot,dic_num_to_candi)
                    
             num_candis = len(list_of_current_candis)
             assert num_candis >= 0
