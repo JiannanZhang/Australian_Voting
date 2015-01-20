@@ -106,7 +106,7 @@ def voting_solve (r, w) :
         for line in list_of_ballots:
             ballot = Ballot(line)
             first_choice = line[0]
-            candi_object = dic_ballot_to_candi[int(first_choice)]
+            candi_object = dic_num_to_candi[int(first_choice)]
             candi_object.ballot_list.append(ballot)
             candi_object.count += 1
             num_ballots += 1
